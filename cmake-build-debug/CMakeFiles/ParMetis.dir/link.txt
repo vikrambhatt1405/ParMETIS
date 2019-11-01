@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -Wl,-rpath -Wl,/usr/local/lib -Wl,--enable-new-dtags -pthread CMakeFiles/ParMetis.dir/adjtocsr.cpp.o CMakeFiles/ParMetis.dir/main.cpp.o  -o ParMetis -Wl,-rpath,/usr/local/lib /usr/local/lib/libmpi.so -Wl,-Bstatic -lparmetis -lmetis -Wl,-Bdynamic 

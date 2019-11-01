@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vikrambhatt/CLionProjects/ParMetis/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+functional
+-
+random
+-
+parmetis.h
+-
+mpi.h
+-
+

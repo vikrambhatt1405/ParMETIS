@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vikrambhatt/CLionProjects/ParMetis/adjtocsr.cpp
+string
+-
+fstream
+-
+iostream
+-
+vector
+-
+mpi.h
+/home/vikrambhatt/CLionProjects/ParMetis/mpi.h
+
+/home/vikrambhatt/CLionProjects/ParMetis/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+functional
+-
+random
+-
+parmetis.h
+-
+mpi.h
+-
+
